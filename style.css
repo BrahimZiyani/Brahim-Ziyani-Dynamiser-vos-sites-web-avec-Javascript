@@ -1,0 +1,232 @@
+  
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+              
+html, body {
+    height: 100%;
+  }
+
+
+.game{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border: 1rem solid brown;
+    height: 500px;
+    width: 800px;
+}
+
+.newgame{
+  cursor: pointer;
+}
+
+.fa-solid{
+    margin: 0 5px;
+    color: red;
+}
+
+.player1 > h2 .fa-sharp.fa-solid.fa-circle-dot{
+  display: block;
+}
+
+.player2 > h2 .fa-sharp.fa-solid.fa-circle-dot{
+  display: none;
+}
+
+.players{
+   display: flex;
+   justify-content: space-between;
+}
+
+            .player1{
+                
+                width: 32%;
+
+            }
+/* ----------------------------------------------------------------DICES---------------------------------------*/
+.first-face {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .second-face {
+    display: none;
+    justify-content: space-between;
+  }
+  
+  .second-face .pip:nth-of-type(2) {
+    align-self: flex-end;
+  }
+  
+  .third-face {
+    display: none;
+    justify-content: space-between;
+  }
+    
+  .third-face .pip:nth-of-type(2) {
+    align-self: center;
+  }
+  
+  .third-face .pip:nth-of-type(3) {
+    align-self: flex-end;
+  }
+  
+  .fourth-face{
+    display: none;
+    justify-content: space-between;
+  }
+  
+  .fourth-face .column, .sixth-face .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fifth-face {
+    display: none;
+    justify-content: space-between;
+  }
+    
+  .fifth-face .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+    
+  .fifth-face .column:nth-of-type(2) {
+    justify-content: center;
+  }
+              
+  .sixth-face { 
+    display: none;
+    justify-content: space-between;
+
+  }          
+              
+             
+              
+              [class$="face"] {
+                margin: 16px;
+                padding: 4px;
+                
+                background-color: #e7e7e7;
+                width: 104px;
+                height: 104px;
+                object-fit: contain;
+                
+                box-shadow:
+                  inset 0 5px white, 
+                  inset 0 -5px #bbb,
+                  inset 5px 0 #d7d7d7, 
+                  inset -5px 0 #d7d7d7;
+                
+                border-radius: 10%;
+              }
+              
+              .pip {
+                display: block;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                margin: 4px;
+              
+                background-color: #bb0606;
+                box-shadow: inset 0 3px #c00a0a, inset 0 -3px #555;
+              }
+
+/* ----------------------------------------------------------------DICES---------------------------------------*/                  
+            
+            .player2{
+                
+                width: 32%;
+            }
+
+
+            .bottom{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 50px;
+            }
+
+         
+           .fa-sharp{
+            display: none;
+           }
+
+
+           .roll-dice{
+                font-weight: 700;
+           }
+           
+           .roll-dice:hover{
+            cursor: pointer;
+            }
+
+            .hold:hover{
+                cursor: pointer;
+                }
+
+           .hold{
+            font-weight: 700;
+            margin-top: 25px;
+           }
+          
+           .roll-success{
+            display: none;
+            color: green;
+            font-weight: 700;
+            margin-left: 15px;
+            border: solid green 1px;
+           }
+
+
+           .current{
+            margin-top: 5px;
+            font-weight: 700;
+           }
+
+           .score{
+            font-weight: 700;
+           }
+
+            .global1{
+                background-color: red;
+                text-align: center;
+                height: 75px;
+                width: 150px;
+                margin-top: 100px;
+            }
+
+            .global2{
+                background-color: red;
+                text-align: center;
+                height: 75px;
+                width: 150px;
+                margin-top: 100px;
+            }
+
+            .hold-success {
+              display: none;
+
+              background-color: rgb(217, 255, 4);
+            }
+
+            .roll-success {
+              display: none;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              padding: 10px;
+              background-color: green;
+              color: white;
+              border-radius: 5px;
+            }
+            
+          
+            
+            
+            
