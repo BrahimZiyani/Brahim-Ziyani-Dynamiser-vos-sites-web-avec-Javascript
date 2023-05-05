@@ -40,11 +40,10 @@ display: none;
  justify-content: space-between;
 }
 
-          .player1{
-              
-              width: 32%;
+.player1{
+  width: 32%;
+}
 
-          }
 /* ----------------------------------------------------------------DICES---------------------------------------*/
 .first-face {
   display: none;
@@ -139,92 +138,90 @@ display: none;
 
 /* ----------------------------------------------------------------DICES---------------------------------------*/                  
           
-          .player2{
-              
-              width: 32%;
-          }
+.player2{
+  width: 32%;
+}
 
 
-          .bottom{
-              display: flex;
-              justify-content: space-around;
-              margin-top: 50px;
-          }
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
 
        
-         .fa-sharp{
-          display: none;
-         }
+.fa-sharp{
+  display: none;
+}
 
 
-         .roll-dice{
-              font-weight: 700;
-         }
+.roll-dice{
+  font-weight: 700;
+}
          
-         .roll-dice:hover{
-          cursor: pointer;
-          }
+.roll-dice:hover{
+  cursor: pointer;
+}
 
-          .hold:hover{
-              cursor: pointer;
-              }
+.hold:hover{
+  cursor: pointer;
+}
 
-         .hold{
-          font-weight: 700;
-          margin-top: 25px;
-         }
+.hold{
+  font-weight: 700;
+  margin-top: 25px;
+}
         
-         .roll-success{
-          display: none;
-          color: green;
-          font-weight: 700;
-          margin-left: 15px;
-          border: solid green 1px;
-         }
+.roll-success{
+  display: none;
+  color: green;
+  font-weight: 700;
+  margin-left: 15px;
+  border: solid green 1px;
+}
 
 
-         .current{
-          margin-top: 5px;
-          font-weight: 700;
-         }
+.current{
+  margin-top: 5px;
+  font-weight: 700;
+}
 
-         .score{
-          font-weight: 700;
-         }
+.score{
+  font-weight: 700;
+}
 
-          .global1{
-              background-color: red;
-              text-align: center;
-              height: 75px;
-              width: 150px;
-              margin-top: 100px;
-          }
+.global1{
+  background-color: red;
+  text-align: center;
+  height: 75px;
+  width: 150px;
+  margin-top: 100px;
+}
 
-          .global2{
-              background-color: red;
-              text-align: center;
-              height: 75px;
-              width: 150px;
-              margin-top: 100px;
-          }
+.global2{
+  background-color: red;
+  text-align: center;
+  height: 75px;
+  width: 150px;
+  margin-top: 100px;
+}
 
-          .hold-success {
-            display: none;
+.hold-success {
+  display: none;
+  background-color: rgb(217, 255, 4);
+}
 
-            background-color: rgb(217, 255, 4);
-          }
-
-          .roll-success {
-            display: none;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 10px;
-            background-color: green;
-            color: white;
-            border-radius: 5px;
-          }
+.roll-success {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
           
         
           
